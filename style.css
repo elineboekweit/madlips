@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: 'redemption';
+    src: url('fonts/redemption-webfont.eot');
+    src: url('fonts/redemption-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/redemption-webfont.woff2') format('woff2'),
+         url('fonts/redemption-webfont.woff') format('woff'),
+         url('fonts/redemption-webfont.ttf') format('truetype'),
+         url('fonts/redemption-webfont.svg#redemptionregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	background-image: url("background.gif");
+	margin: auto;
+	margin-top: 20px;
+	min-width: 600px;
+	width: 70vw;
+	line-height: 123.5%;	
+}
+header {
+	font-family: redemption;
+	color: white;
+	font-size: 30;
+	padding: 1vw;
+}
+
+nav {
+	background-color:rgba(181, 0, 0, 1);
+	padding: 1vw;
+	display: block;
+}
+section {
+	padding: 1vw;
+	min-height: 14vw;
+	background-color: white;
+}
+
+ul li {
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	margin: 1vw;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+@media only screen and (max-width: 1000px) {
+	#pijl {
+		position: absolute;
+		left: 0;
+		top: 400px;
+	}
+	li hr {
+		border: 0;
+	}
+	
+}
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+	input {
+		float: right;
+		margin-right: 5vw;
+	}
+	li hr {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1300px) {
+	input {
+		float: right;
+		margin-right: 5vw;
+	}
+	li hr {
+		display: none;
+	}
+}
